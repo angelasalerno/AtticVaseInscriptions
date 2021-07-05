@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Nonsense inscription</rs></title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename">Nonsense 87</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>New York (NY), Metropolitan Museum of Art</repository>
+                        <idno>41.152.179</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary corresp="document-search.xml#doc33">
+                            <seg>Nonsense.</seg>
+                            </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   <material ref="material-search.xml#m10">clay (glazed)</material>
+                                     <p>Black-figure <objectType ref="monument-search.xml#mon47">neck-amphora</objectType></p>
+                                     <p xml:lang="en">Cracked all through, restored in modern times. </p>
+                                      (<dimensions unit="cm">
+                                      <height>40.2</height>
+                                      <dim type="diameter">27.2</dim>
+                                    </dimensions>)
+                                    </support>
+                            </supportDesc>
+                            <layoutDesc>
+                              <layout>
+                                <seg xml:lang="en">
+                                  <rs type="execution" ref="execution.xml#pictus">Painted</rs>
+                                Three (or five) nonsense inscriptions on A running vertically.
+                                </seg>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                              <seg xml:lang="en">Letters are quite neat and clearly distinguishable, realized as symbols formed by two or three intersecting strokes.
+                           </seg>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace type="executed">Athens, Kerameikos.</origPlace>
+                            <origDate notBefore="-0550" notAfter="-0500">Second half of the sixth century B.C.</origDate>
+                        </origin>
+                        <provenance>
+                          <p>Found at an unknown date in
+                           <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/413122" cert="low">Etruria</placeName>
+                           </p>
+                        </provenance>
+                        <provenance type="observed">Exposed in the Metropolitan Museum of Art (NY)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+              <language ident="en">English</language>
+               
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://weblimc.org/page/monument/2080580"/>
+    </facsimile>
+    <text>
+        <body>
+          <div type="edition" xml:lang="grc" xml:space="preserve">
+            <div type="textpart" subtype="section" n="a">
+             <!-- Along the top edge. -->
+              <ab>
+                    <lb n="1"/>YΓΧ^Υ
+                </ab>
+                </div>
+                <div type="textpart" subtype="section" n="b">
+                  <!-- At the far right of the scene. -->
+                  <ab>
+                       <lb n="1"/>INXΔXΠO
+                   </ab>
+                   </div>
+                   <div type="textpart" subtype="section" n="c">
+                     <!-- Between the stretched left arm and the left thigh of Perseus. -->
+                     <ab>
+                        <lb n="1"/>ΚXΔ
+                     </ab>
+                  </div>
+                <div type="textpart" subtype="section" n="d">
+                  <!-- In front of Perseus’ knee. -->
+                  <ab>
+                       <lb n="1"/>X
+                  </ab>
+                </div>
+                <div type="textpart" subtype="section" n="d">
+                  <!-- Below Perseus’ bag (from bottom to top). -->
+                  <ab>
+                     <lb n="1"/>IΓXN
+                  </ab>
+                </div>
+            </div>
+            <div type="translation" xml:lang="en" xml:space="preserve">
+          <p> Not usefully translatable. </p>
+         </div>
+
+
+           <div type="commentary">
+                <head>Commentary</head>
+                <p>About the second inscription (<ref type="inscription">INXΔXΠO</ref>),
+                  S. Chiarini criticizes H.R. Immerwahr's interpretation of the second grapheme from the top, identified by him as a Z-shaped sigma:
+                   it seems more likely that ot is a nu that agrees in its orientation with the following letters, having thus rotated
+                 its axis in respect to the beginning iota (see <bibl><ptr target="#Chiarini2018"/>, pp.
+	                   <citedRange>48</citedRange></bibl>).</p>
+                <p>About the third inscription (<ref type="inscription">ΚXΔ</ref>),
+                the third sign is more probabily a delta and not a pi, as Immerwahr argued. S. Chiarini thinks that its triangular form matches the delta
+                of the previous inscription (see <bibl><ptr target="#Chiarini2018"/>, pp.
+                    <citedRange>48</citedRange></bibl>).</p>
+                <p>The last inscription (<ref type="inscription">IΓXN</ref>) shows that a close look at the nu reveals
+                that it has not been drawn retrograde, but as regularly starting from the left vertical
+                stroke; consequently, a separate inscription begins with the iota (see <bibl><ptr target="#Chiarini2018"/>, pp.
+                    <citedRange>48</citedRange></bibl>).</p>
+            </div>
+            <div type="bibliography">
+              <head>Bibliography</head>
+              <p>
+                <bibl>
+                  <ptr target="#Chiarini2018"/>Chiarini 2018, pp. <citedRange>48—50</citedRange>
+                  <ptr target="#AVI"/>Attic Vase Inscriptions, n. <citedRange>5695</citedRange>
+                  <ptr target="#CVANY"/>CVA USA 16, New York Metropolitan Museum 4, pp. <citedRange>43—44</citedRange>
+            </bibl>.</p>
+          </div>
+        </body>
+    </text>
+</TEI>
