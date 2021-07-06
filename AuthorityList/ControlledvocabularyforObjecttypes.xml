@@ -200,6 +200,9 @@
                 <item xml:id="mon47">
                     <term xml:lang="en">neck-amphora</term>
                 </item>
+                <item xml:id="mon48">
+                    <term xml:lang="en">amphora</term>
+                </item>
             </list>
         </body>
     </text>

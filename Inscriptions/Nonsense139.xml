@@ -9,13 +9,14 @@
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
-                <idno type="filename">Nonsense 87</idno>
+                <idno type="filename">Nonsense 139</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>New York (NY), Metropolitan Museum of Art</repository>
-                        <idno>41.152.179</idno>
+                        <repository>Würzburg, Martin von Wagner Museum </repository>
+
+                        <idno>L 297/507</idno>
                     </msIdentifier>
                     <msContents>
                         <summary corresp="document-search.xml#doc33">
@@ -27,10 +28,10 @@
                             <supportDesc>
                                 <support>
                                    <material ref="material-search.xml#m10">clay (glazed)</material>
-                                     <p>Black-figure <objectType ref="monument-search.xml#mon47">neck-amphora</objectType></p>
+                                     <p>Red-figure <objectType ref="monument-search.xml#mon48">amphora</objectType></p>
                                      <p xml:lang="en">Cracked all through, restored in modern times. </p>
                                       (<dimensions unit="cm">
-                                      <height>40.2</height>
+                                      <height>63.3</height>
                                       <dim type="diameter">27.2</dim>
                                     </dimensions>)
                                     </support>
@@ -48,17 +49,14 @@
                             <handNote>
                               <seg xml:lang="en">Letters are quite neat and clearly distinguishable, realized as symbols formed by two or three intersecting strokes.
                            </seg>
-                            <handNote hands="two" cert="low">
-                              <p>It is not clear if the hand that realized the inscriptions was different from the hand (or hands) which painted the vase.
-                                </p>
                             </handNote>
+                        <handDesc>
+                            <p>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace ref="origPlace.xml#p066" type="executed">
-                              <seg xml:lang="en">Athens, Kerameikos.</seg>
-                              </origPlace>
+                            <origPlace type="executed">Athens, Kerameikos.</origPlace>
                             <origDate notBefore="-0550" notAfter="-0500">Second half of the sixth century B.C.</origDate>
                         </origin>
                         <provenance>
@@ -149,11 +147,14 @@
                 that it has not been drawn retrograde, but as regularly starting from the left vertical
                 stroke; consequently, a separate inscription begins with the iota (see <bibl><ptr target="#Chiarini2018"/>, pp.
                     <citedRange>48</citedRange></bibl>).</p>
+                  <p>The vase was attributed by Beazley to the Group of Würzburg 210 (Leagros Group). (see <bibl><ptr target="#ABV"/>, n.
+                      <citedRange>99</citedRange></bibl>).</p>
             </div>
             <div type="bibliography">
               <head>Bibliography</head>
               <p>
                 <bibl>
+                  <ptr target="#ABV"/> Attic Black Figure Vase-Painters 1942, n. <citedRange>99</citedRange>
                   <ptr target="#Chiarini2018"/>Chiarini 2018, pp. <citedRange>48—50</citedRange>
                   <ptr target="#AVI"/>Attic Vase Inscriptions, n. <citedRange>5695</citedRange>
                   <ptr target="#CVANY"/>CVA USA 16, New York Metropolitan Museum 4, pp. <citedRange>43—44</citedRange>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled vocabulary for symbols</title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body><div type="commentary">
+            <listPerson type="athens">
+                <head xml:lang="en">vase painters/Groups</head>
+
+                <person xml:id="smikros">
+                    <persName xml:lang="en">Smikros</persName>
+                    <persName xml:lang="grc">Σμίκρoς</persName>
+                    <idno type="wp">https://it.wikipedia.org/wiki/Smikros</idno>
+                </person>
+
+                <person xml:id="leagros">
+                    <persName xml:lang="en">Leagros Group</persName>
+                    <persName xml:lang="grc">Λεαγρος</persName>
+                    <idno type="wp">https://it.wikipedia.org/wiki/Gruppo_di_Leagros</idno>
+                </person>
+
+                <person xml:id="kleophrades painter">
+                    <persName xml:lang="en">Kleophrades Painter</persName>
+                    <idno type="wp">https://it.wikipedia.org/wiki/Pittore_di_Cleofrade</idno>
+                </person>
+
+             </listPerson>
+             </div>
+              </body>
+          </text>
+      </TEI>

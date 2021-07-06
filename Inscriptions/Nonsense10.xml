@@ -49,7 +49,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace type="executed">Athens, Kerameikos.</origPlace>
+                          <origPlace ref="origPlace.xml#p066" type="executed">
+                            <seg xml:lang="en">Athens, Kerameikos.</seg>
+                            </origPlace>
                             <origDate notBefore="-0525" notAfter="-0475">Between the last quarter of the sixth and the first quarter of the fifth century B.C.</origDate>
                         </origin>
                         <provenance>
@@ -106,6 +108,7 @@
                 <p>The inscription clearly evokes the melody played by the satyr. The repetition of the consonants
                   N and T paired with the vowel E captures the viewer's attention (see <bibl><ptr target="#Chiarini2018"/>, pp.
  	                   <citedRange>190—191</citedRange></bibl>).</p>
+                     <p>The vase painting was realized by Smikros.</p>
             </div>
             <div type="bibliography">
               <head>Bibliography</head>
