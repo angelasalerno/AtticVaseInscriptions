@@ -28,43 +28,44 @@
                             <supportDesc>
                                 <support>
                                    <material ref="material-search.xml#m10">clay (glazed)</material>
-                                     <p>Red-figure <objectType ref="monument-search.xml#mon48">amphora</objectType></p>
-                                     <p xml:lang="en">Cracked all through, restored in modern times. </p>
+                                     <p>Red-figure <objectType ref="monument-search.xml#mon48">amphora, belly, type A</objectType></p>
+                                     <p xml:lang="en">Cracked all through, recently restored.
+                                        This condition was due to the traumatic events of the WW2.  </p>
                                       (<dimensions unit="cm">
                                       <height>63.3</height>
-                                      <dim type="diameter">27.2</dim>
-                                    </dimensions>)
+                                      </dimensions>)
                                     </support>
                             </supportDesc>
                             <layoutDesc>
                               <layout>
                                 <seg xml:lang="en">
                                   <rs type="execution" ref="execution.xml#pictus">Painted</rs>
-                                Three (or five) nonsense inscriptions on A running vertically.
+                                Eight nonsense inscriptions placed on both sides, following the carachters.
                                 </seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                              <seg xml:lang="en">Letters are quite neat and clearly distinguishable, realized as symbols formed by two or three intersecting strokes.
+                          <handNote>
+                          <p>It's highly probably that Euthymides taught the Kleophrades Painter not only the painting tecnique but also his style of writing.</p>
+                            <seg xml:lang="en">Letters are clearly distinguishable but their shape is quite peculiar, recalling Euthymides's style of writing.
                            </seg>
                             </handNote>
-                        <handDesc>
-                            <p>
                         </handDesc>
-                    </physDesc>
+                        </physDesc>
                     <history>
                         <origin>
-                            <origPlace type="executed">Athens, Kerameikos.</origPlace>
-                            <origDate notBefore="-0550" notAfter="-0500">Second half of the sixth century B.C.</origDate>
+                          <origPlace ref="origPlace.xml#p066" type="executed">
+                            <seg xml:lang="en">Athens, Kerameikos.</seg>
+                            </origPlace>
+                            <origDate notBefore="-0510" notAfter="-0500">Last decade of the sixth century B.C.ca.</origDate>
                         </origin>
                         <provenance>
                           <p>Found at an unknown date in
-                           <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/413122" cert="low">Etruria</placeName>
+                           <placeName type="ancientFindspot" ref="findspot.xml#vulci">Vulci</placeName>
                            </p>
                         </provenance>
-                        <provenance type="observed">Exposed in the Metropolitan Museum of Art (NY)
+                        <provenance type="observed">Exposed in Martin von Wagner Museum, Würzburg
                         </provenance>
                     </history>
                 </msDesc>
@@ -91,42 +92,64 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="https://weblimc.org/page/monument/2080580"/>
+        <graphic url="https://www.beazley.ox.ac.uk/Watermark/displayImage.asp?id={C137FEFC-BB1E-4A74-A43B-F22CF971F0A7}"/>
     </facsimile>
     <text>
         <body>
           <div type="edition" xml:lang="grc" xml:space="preserve">
-            <div type="textpart" subtype="section" n="a">
-             <!-- Along the top edge. -->
+            <div type="textpart" subtype="face" n="a">
+             <!-- In front of the boy. -->
               <ab>
-                    <lb n="1"/>YΓΧ^Υ
+                    <lb n="1"/>ΤΛ<supplied reason="lost">Ε</supplied>Τ<supplied reason="lost">Υ</supplied>
                 </ab>
                 </div>
-                <div type="textpart" subtype="section" n="b">
-                  <!-- At the far right of the scene. -->
+                <div type="textpart" subtype="face" n="a">
+                  <!-- Before the warrior's head. -->
                   <ab>
-                       <lb n="1"/>INXΔXΠO
+                       <lb n="1"/>ΙΤΕΙΣ
                    </ab>
                    </div>
-                   <div type="textpart" subtype="section" n="c">
-                     <!-- Between the stretched left arm and the left thigh of Perseus. -->
+                   <div type="textpart" subtype="face" n="a">
+                     <!-- Above the dog. -->
                      <ab>
-                        <lb n="1"/>ΚXΔ
+                        <lb n="1"/>Ε<supplied reason="lost">Ι</supplied>ΟΣ
                      </ab>
                   </div>
-                <div type="textpart" subtype="section" n="d">
-                  <!-- In front of Perseus’ knee. -->
+                <div type="textpart" subtype="face" n="a">
+                  <!-- By the woman. -->
                   <ab>
-                       <lb n="1"/>X
+                     <lb n="1"/>Ι<supplied reason="lost">ΣΛΕ</supplied>I
                   </ab>
                 </div>
-                <div type="textpart" subtype="section" n="d">
-                  <!-- Below Perseus’ bag (from bottom to top). -->
+
+
+                <div type="textpart" subtype="face" n="b">
+                  <!-- To right of the amphora -->
                   <ab>
-                     <lb n="1"/>IΓXN
+                     <lb n="1" style="text-direction:r-to-l"/>ΕΙΣ
+                  </ab>
+                </div>
+                <div type="textpart" subtype="face" n="b">
+                  <!-- To left of the hetaera's head. -->
+                  <ab>
+                     <lb n="1"/>IΣΥΤ
+                  </ab>
+                </div>
+                <div type="textpart" subtype="face" n="b">
+                  <!-- On the right of the hetaera. -->
+                  <ab>
+                     <lb n="1"/>ΙΣΕ
+                  </ab>
+                </div>
+                <div type="textpart" subtype="face" n="b">
+                  <!-- Above the left komast. -->
+                  <ab>
+                     <lb n="1"/>ΙΥΙ
                   </ab>
                 </div>
             </div>
+
+
             <div type="translation" xml:lang="en" xml:space="preserve">
           <p> Not usefully translatable. </p>
          </div>
@@ -134,30 +157,24 @@
 
            <div type="commentary">
                 <head>Commentary</head>
-                <p>About the second inscription (<ref type="inscription">INXΔXΠO</ref>),
-                  S. Chiarini criticizes H.R. Immerwahr's interpretation of the second grapheme from the top, identified by him as a Z-shaped sigma:
-                   it seems more likely that ot is a nu that agrees in its orientation with the following letters, having thus rotated
-                 its axis in respect to the beginning iota (see <bibl><ptr target="#Chiarini2018"/>, pp.
-	                   <citedRange>48</citedRange></bibl>).</p>
-                <p>About the third inscription (<ref type="inscription">ΚXΔ</ref>),
-                the third sign is more probabily a delta and not a pi, as Immerwahr argued. S. Chiarini thinks that its triangular form matches the delta
-                of the previous inscription (see <bibl><ptr target="#Chiarini2018"/>, pp.
-                    <citedRange>48</citedRange></bibl>).</p>
-                <p>The last inscription (<ref type="inscription">IΓXN</ref>) shows that a close look at the nu reveals
-                that it has not been drawn retrograde, but as regularly starting from the left vertical
-                stroke; consequently, a separate inscription begins with the iota (see <bibl><ptr target="#Chiarini2018"/>, pp.
-                    <citedRange>48</citedRange></bibl>).</p>
-                  <p>The vase was attributed by Beazley to the Group of Würzburg 210 (Leagros Group). (see <bibl><ptr target="#ABV"/>, n.
-                      <citedRange>99</citedRange></bibl>).</p>
+                <p>he inscriptions are Euthymidean and the style of lettering is more regular than later.
+                  Many scholars think it strange that the inscriptions should be meaningless, as the Kleophrades Painter could write, cf. Vatican 16,573(3) and Munich 2305
+                  (see <bibl><ptr target="#AVI"/>, n.
+                      <citedRange>8122</citedRange></bibl>).</p>
+                <p>About the inscriptions by the hetaera (<ref type="inscription">IΣΥΤ</ref> and <ref type="inscription">ΙΣΕ</ref>),
+              they can be read as [Α]νυτινε (see G, Neumann apud CVA).</p>
+                <p>Following Mayor's interpretation, these inscriptions can also be interpreted as meaningful sounds in foreign languages
+                  spoken in the Black Sea and Caucasus region (see <bibl><ptr target="#Mayor2014"/>, pp.
+                    <citedRange>480—481</citedRange></bibl>).</p>
+                  
             </div>
             <div type="bibliography">
               <head>Bibliography</head>
               <p>
                 <bibl>
-                  <ptr target="#ABV"/> Attic Black Figure Vase-Painters 1942, n. <citedRange>99</citedRange>
                   <ptr target="#Chiarini2018"/>Chiarini 2018, pp. <citedRange>48—50</citedRange>
                   <ptr target="#AVI"/>Attic Vase Inscriptions, n. <citedRange>5695</citedRange>
-                  <ptr target="#CVANY"/>CVA USA 16, New York Metropolitan Museum 4, pp. <citedRange>43—44</citedRange>
+                  <ptr target="#Mayor2014"/>Mayor et alii 2014, pp. <citedRange>447—493</citedRange>
             </bibl>.</p>
           </div>
         </body>
