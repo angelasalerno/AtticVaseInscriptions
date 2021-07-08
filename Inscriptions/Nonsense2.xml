@@ -9,14 +9,14 @@
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
-                <idno type="filename">Nonsense 139</idno>
+                <idno type="filename">Nonsense 2</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Würzburg, Martin von Wagner Museum </repository>
+                        <repository>Arezzo, Museo Nazionale Archeologico</repository>
 
-                        <idno>L 297/507</idno>
+                        <idno>1465</idno>
                     </msIdentifier>
                     <msContents>
                         <summary corresp="document-search.xml#doc33">
@@ -28,26 +28,24 @@
                             <supportDesc>
                                 <support>
                                    <material ref="material-search.xml#m10">clay (glazed)</material>
-                                     <p>Red-figure <objectType ref="monument-search.xml#mon48">amphora, belly, type A</objectType></p>
+                                     <p>Red-figure <objectType ref="monument-search.xml#mon48">krater, volute</objectType></p>
                                      <p xml:lang="en">Cracked all through, recently restored.
-                                        This condition was due to the traumatic events of the WW2.  </p>
-                                      (<dimensions unit="cm">
-                                      <height>63.3</height>
-                                      </dimensions>)
-                                    </support>
+                                        </p>
+                                      </support>
                             </supportDesc>
                             <layoutDesc>
                               <layout>
                                 <seg xml:lang="en">
                                   <rs type="execution" ref="execution.xml#pictus">Painted</rs>
-                                Eight nonsense inscriptions placed on both sides, following the carachters.
+                                Six nonsense inscriptions on B.
                                 </seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                           <handNote>
-                          <p>It's highly probably that Euthymides taught the Kleophrades Painter not only the painting tecnique but also his style of writing.</p>
+                          <p>It is not clear if the vase painting and the insciptions were realized by Euphronios.
+                            Scholars noted that the neck pictures have sideways sigma, which Euphronios avoids. </p>
                             <seg xml:lang="en">Letters are clearly distinguishable but their shape is quite peculiar, recalling Euthymides's style of writing.
                            </seg>
                             </handNote>
@@ -58,14 +56,14 @@
                           <origPlace ref="origPlace.xml#p066" type="executed">
                             <seg xml:lang="en">Athens, Kerameikos.</seg>
                             </origPlace>
-                            <origDate notBefore="-0510" notAfter="-0500">Last decade of the sixth century B.C.ca.</origDate>
+                            <origDate notBefore="-0510" notAfter="-0500">Last decade of the sixth century B.C. ca.</origDate>
                         </origin>
                         <provenance>
                           <p>Found at an unknown date in
-                           <placeName type="ancientFindspot" ref="findspot.xml#vulci">Vulci</placeName>
+                           <placeName type="ancientFindspot" ref="findspot.xml#arezzo" cert="low">Arezzo</placeName>
                            </p>
                         </provenance>
-                        <provenance type="observed">Exposed in Martin von Wagner Museum, Würzburg
+                        <provenance type="observed">Exposed in Museo Nazionale Archeologico di Arezzo
                         </provenance>
                     </history>
                 </msDesc>
@@ -92,7 +90,7 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="https://www.beazley.ox.ac.uk/Watermark/displayImage.asp?id={C137FEFC-BB1E-4A74-A43B-F22CF971F0A7}"/>
+        <graphic url="https://www.beazley.ox.ac.uk/Watermark/displayImage.asp?id={9E26147A-1E12-4AA1-A140-44990C321BD9}"/>
     </facsimile>
     <text>
         <body>
@@ -157,7 +155,7 @@
 
            <div type="commentary">
                 <head>Commentary</head>
-                <p>The inscriptions are Euthymidean and the style of lettering is more regular than later.
+                <p>he inscriptions are Euthymidean and the style of lettering is more regular than later.
                   Many scholars think it strange that the inscriptions should be meaningless, as the Kleophrades Painter could write, cf. Vatican 16,573(3) and Munich 2305
                   (see <bibl><ptr target="#AVI"/>, n.
                       <citedRange>8122</citedRange></bibl>).</p>
@@ -166,14 +164,14 @@
                 <p>Following Mayor's interpretation, these inscriptions can also be interpreted as meaningful sounds in foreign languages
                   spoken in the Black Sea and Caucasus region (see <bibl><ptr target="#Mayor2014"/>, pp.
                     <citedRange>480—481</citedRange></bibl>).</p>
-                    <p>The vase was realized by <persName ref="attrib.xml#kleophrades_painter">the Kleophrades Painter</persName> .</p>
 
             </div>
             <div type="bibliography">
               <head>Bibliography</head>
               <p>
                 <bibl>
-                  <ptr target="#AVI"/>Attic Vase Inscriptions, n. <citedRange>8122</citedRange>
+                  <ptr target="#Chiarini2018"/>Chiarini 2018, pp. <citedRange>48—50</citedRange>
+                  <ptr target="#AVI"/>Attic Vase Inscriptions, n. <citedRange>5695</citedRange>
                   <ptr target="#Mayor2014"/>Mayor et alii 2014, pp. <citedRange>447—493</citedRange>
             </bibl>.</p>
           </div>

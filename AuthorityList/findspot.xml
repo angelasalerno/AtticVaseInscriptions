@@ -494,6 +494,10 @@
                     <placeName xml:lang="en">Vulci</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/413393</idno>
                 </place>
+                <place xml:id="arezzo">
+                    <placeName xml:lang="en">Arezzo</placeName>
+                    <idno type="pleiades">https://pleiades.stoa.org/places/413032</idno>
+                </place>
                   </listPlace>
         </body>
     </text>

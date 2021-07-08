@@ -45,12 +45,13 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                              <seg xml:lang="en">Letters are quite neat and clearly distinguishable, realized as symbols formed by two or three intersecting strokes.
-                           </seg>
-                            <handNote hands="two" cert="low">
-                              <p>It is not clear if the hand that realized the inscriptions was different from the hand (or hands) which painted the vase.
+                            <handNote cert="low">
+                              <p>It is not clear if the hand that realized the inscriptions was different
+                                from the hand (or hands) which painted the vase.
                                 </p>
+                                <seg xml:lang="en">Letters are quite neat and clearly distinguishable,
+                                  realized as symbols formed by two or three intersecting strokes.
+                             </seg>
                             </handNote>
                         </handDesc>
                     </physDesc>
