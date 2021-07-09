@@ -32,6 +32,11 @@
                     <idno type="wp">https://it.wikipedia.org/wiki/Pittore_di_Cleofrade</idno>
                 </person>
 
+                <person xml:id="euphronios">
+                    <persName xml:lang="en">Euphronios</persName>
+                    <idno type="wp">https://it.wikipedia.org/wiki/Eufronio</idno>
+                </person>
+
              </listPerson>
              </div>
               </body>

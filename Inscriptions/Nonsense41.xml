@@ -9,14 +9,14 @@
             </titleStmt>
             <publicationStmt>
                 <authority></authority>
-                <idno type="filename">Nonsense 2</idno>
+                <idno type="filename">Nonsense 41</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>Arezzo, Museo Nazionale Archeologico</repository>
+                        <repository>Gioia del Colle, Museo Archeologico Nazionale</repository>
 
-                        <idno>1465</idno>
+                        <idno>MG 29</idno>
                     </msIdentifier>
                     <msContents>
                         <summary corresp="document-search.xml#doc33">
@@ -28,8 +28,8 @@
                             <supportDesc>
                                 <support>
                                    <material ref="material-search.xml#m10">clay (glazed)</material>
-                                     <p>Red-figure <objectType ref="monument-search.xml#mon49">krater, volute</objectType></p>
-                                     <p xml:lang="en">Cracked all through, recently restored.
+                                     <p>Black-figure <objectType ref="monument-search.xml#mon50">column krater</objectType></p>
+                                     <p xml:lang="en">Fragmentary.
                                         </p>
                                       </support>
                             </supportDesc>
@@ -37,16 +37,18 @@
                               <layout>
                                 <seg xml:lang="en">
                                   <rs type="execution" ref="execution.xml#pictus">Painted</rs>
-                                Three nonsense inscriptions on the neck; at least two on the body.
+                                Two nonsense inscriptions near the Amazons.
                                 </seg>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                           <handNote>
-                          <p>It is not clear if the vase painting and the insciptions were realized by Euphronios.
-                            Scholars noted that the neck pictures have sideways sigma, which Euphronios avoids. </p>
-                            <seg xml:lang="en">Letters are clearly distinguishable but their shape is quite peculiar, recalling Euthymides's style of writing.
+                          <p>
+                             Some scholars think that the inscriptions were written by a semi-literate because of
+                              the presence of sense but miswritten inscriptions too.
+                              </p>
+                            <seg xml:lang="en">Letters are clearly distinguishable, neat and quite large, in leagran style of writing.
                            </seg>
                             </handNote>
                         </handDesc>
@@ -56,14 +58,14 @@
                           <origPlace ref="origPlace.xml#p066" type="executed">
                             <seg xml:lang="en">Athens, Kerameikos.</seg>
                             </origPlace>
-                            <origDate notBefore="-0510" notAfter="-0500">Last decade of the sixth century B.C. ca.</origDate>
+                            <origDate notBefore="-0550" notAfter="-0500">Second half of the sixth century B.C.</origDate>
                         </origin>
                         <provenance>
                           <p>Found at an unknown date in
-                           <placeName type="ancientFindspot" ref="findspot.xml#arezzo" cert="low">Arezzo</placeName>
+                           <placeName type="ancientFindspot" ref="findspot.xml#monte-sannace">Monte Sannace</placeName>
                            </p>
                         </provenance>
-                        <provenance type="observed">Exposed in Museo Nazionale Archeologico di Arezzo.
+                        <provenance type="observed">Exposed in Museo Archeologico Nazionale di Gioia del Colle.
                         </provenance>
                     </history>
                 </msDesc>
@@ -90,42 +92,26 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="https://www.beazley.ox.ac.uk/Watermark/displayImage.asp?id={9E26147A-1E12-4AA1-A140-44990C321BD9}"/>
+        <graphic url="https://www.beazley.ox.ac.uk/Watermark/displayImage.asp?id={389F39B8-CD55-4803-B548-F12C3AF542C8}"/>
     </facsimile>
     <text>
         <body>
           <div type="edition" xml:lang="grc" xml:space="preserve">
-            <div type="textpart" subtype="section" n="neck">
+            <div type="textpart" subtype="side" n="a">
+              <!-- To right of the left Amazon's helmet: -->
              <ab>
-                    <lb n="1"/>XIXYOϞ
+                    <lb n="1"/>OOϞ^AOϞ<unclear>A</unclear>
                 </ab>
                 </div>
 
-                <div type="textpart" subtype="section" n="neck">
+                <div type="textpart" subtype="side" n="a">
+                  <!-- To right of the second Amazon's helmet -->
                   <ab>
-                       <lb n="1"/><gap reason="lost" quantity="1" unit="character"/>ΔEϞ
+                       <lb n="1"/>HΙΗΟϞΟΙΛϞ
                      </ab>
                    </div>
+                      </div>
 
-                   <div type="textpart" subtype="section" n="neck">
-                      <ab>
-                        <lb n="1"/>YKON
-                     </ab>
-                  </div>
-
-
-                <div type="textpart" subtype="section" n="body">
-                    <ab>
-                     <lb n="1"/>TOΓϞIϞ
-                  </ab>
-                </div>
-
-                <div type="textpart" subtype="section" n="body">
-                  <ab>
-                     <lb n="1"/>X<gap reason="lost" quantity="4" unit="character"/>ILA
-                  </ab>
-                </div>
-                </div>
 
             <div type="translation" xml:lang="en" xml:space="preserve">
           <p> Not usefully translatable. </p>
@@ -134,21 +120,19 @@
 
            <div type="commentary">
                 <head>Commentary</head>
-                <p>The lettering is regular and quite neat, following Euphronios's style of writing.
-                  Some scholars date the vase very late when E. already owned the pottery workshop.
-                  The komos on the neck has 11 figures, not all inscribed, on A. The kalos' are portrait-kalos. On B, there are 8 figures,
-                    with nonsense inscriptions representing their names
-                  (see <bibl><ptr target="#AVI"/>, n.
-                      <citedRange>0165</citedRange></bibl>).</p>
-                      <p>Attributed to <persName ref="attrib.xml#euphronios">Euphronios</persName> by Furtwängler</p>
+                <p>S. Chiarini (see <bibl><ptr target="#Chiarini2018"/>, pp.
+                	                   <citedRange>199</citedRange></bibl>) groups the first of these two nonsense inscriptions (<ref type="inscription">OOϞ^AOϞẠ</ref>)
+                  in the section of the "iterative lettering". The double OAϞ on this column krater recall the AYAYϞ appearing next to
+                  a maenad on an Athenian red-figure lekythos (Athens, National Museum CC 1515 = BAD 9016830 = AVI 0791).</p>
+
                           </div>
             <div type="bibliography">
               <head>Bibliography</head>
               <p>
                 <bibl>
-                  <ptr target="#Chiarini2018"/>Chiarini 2018, pp. <citedRange>235</citedRange>
-                  <ptr target="#AVI"/>Attic Vase Inscriptions, n. <citedRange>0165</citedRange>
-                <ptr target="#Furtwängler1903"/>Furtwängler 1903, pls. <citedRange>61—62</citedRange>
+                  <ptr target="#Chiarini2018"/>Chiarini 2018, pp. <citedRange>199; 340—341</citedRange>
+                  <ptr target="#AVI"/>Attic Vase Inscriptions, n. <citedRange>3817</citedRange>
+                
             </bibl>.</p>
           </div>
               </body>

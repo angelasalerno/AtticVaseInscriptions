@@ -497,7 +497,13 @@
                 <place xml:id="arezzo">
                     <placeName xml:lang="en">Arezzo</placeName>
                     <idno type="pleiades">https://pleiades.stoa.org/places/413032</idno>
-                </place>
+                      </place>
+                      <place xml:id="monte-sannace">
+                          <placeName xml:lang="en">Monte Sannace</placeName>
+                          <idno type="pleiades">https://pleiades.stoa.org/places/442674</idno>
+                            </place>
+
+
                   </listPlace>
         </body>
     </text>

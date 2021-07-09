@@ -205,8 +205,11 @@
                 </item>
                 <item xml:id="mon49">
                     <term xml:lang="en">krater, volute</term>
-                </item>
-            </list>
+                    </item>
+                    <item xml:id="mon50">
+                        <term xml:lang="en">column krater</term>
+                        </item>
+                     </list>
         </body>
     </text>
 </TEI>
